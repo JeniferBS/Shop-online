@@ -4,33 +4,59 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+
+
+
+
   <title>ShopOnline</title>
 </head>
 <body>	
-	<form>
-		<h1 align="center">Carrito de la compra</h1>
-		<label>
-			<span>Descripción</span>
-			<input type="text" placeholder="Descripcion" id="uno" name="name">
-			</label>
-			<h5></h5>
-			<span>cantidad</span>
-			<input type="number" id="dos" placeholder="cantidad" name=""/>
-		</label>
-		<label>
-			<h5></h5>
-			<span>Precio</span>
-			<input type="number" id="tres" placeholder="Precio" name="">
-		</label>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8">
+				<h1>Panel de frutas</h1>
+				<div class="panel1 bg-warning col-md-4">
+					<span>Nombre de la fruta</span><br>
+					<span>Precio</span><br>
+					<img src="">imagen<br>
+					<span>Descripción</span><br>
+					<a href="#">Añadir a mi carrito</a>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<h2>Tu compra <i class="fas fa-shopping-cart"></i></h2>
+				<div class="panel2 bg-warning col-md-1">
+					<a>+</a>
+				</div>
+				<div class="panel3 bg-warning col-md-2">
+					<span>Nº</span>
+				</div>
+				<div class="panel4 bg-warning col-md-4">
+					<span>Nombre</span>
+				</div>
+				<div class="panel5 bg-warning col-md-4">
+					<span>Precio</span>
+				</div>
+				<div class="panel6 bg-warning col-md-1">
+					<a>x</a>
+				</div>
+				<div class="panel7 bg-warning col-md-12">
+					<h5>TOTAL</h5>
+				</div>
+			</div>
+		</div>
+	</div>
 
 
-		<h5></h5>
-		<span>Total:</span><input type="text" id="total" placeholder="Total" name="somecode" min="0"/>
-		<p></p>
 
-	</form>
+	
 
     <script src="ShopOnline.js"></script>
+    <script type="text/javascript" src="./js/jquery-2.1.4.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
   
 </body>
 </html>
